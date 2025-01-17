@@ -48,7 +48,6 @@ void bubbleSort(int a[], int size) {
       // them if they are in wrong order
       for (int i = 0; i < size - 1; ++i) {
          if (a[i] > a[i+1]) {
-            print(a, size); // for tracing
             temp = a[i];
             a[i] = a[i+1];
             a[i+1] = temp;
